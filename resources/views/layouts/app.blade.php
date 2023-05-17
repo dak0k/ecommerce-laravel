@@ -73,7 +73,7 @@
                 </div>
             </div>
         </nav>
-
+        @include('layouts.inc.admin.statusShower')
         <main class="py-4">
             @yield('content')
         </main>
